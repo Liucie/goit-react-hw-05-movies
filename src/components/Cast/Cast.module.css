@@ -1,0 +1,11 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  font-size: 18px;
+  color: #f2e9e4;
+}
+.img {
+  margin-bottom: 15px;
+  border-radius: 5px;
+}

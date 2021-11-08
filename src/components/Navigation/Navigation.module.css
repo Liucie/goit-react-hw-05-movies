@@ -1,0 +1,28 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #4a4e69;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+  border-radius: 5px;
+}
+.link {
+  display: block;
+  font-size: 30px;
+  font-weight: 800;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: #22223b;
+}
+.link:hover {
+  color: transparent;
+  -webkit-text-stroke: 2px #22223b;
+}
+
+@supports not (-webkit-text-stroke: 2px red) {
+  a:hover {
+    text-shadow: 3px 3px 0 #22223b, -1px -1px 0 #22223b, 1px -1px 0 #22223b,
+      -1px 1px 0 #22223b, 1px 1px 0 #22223b;
+  }
+}
